@@ -20,7 +20,7 @@ MineSweeper.pyをダウンロードして自分のプログラムのフォルダ
 import MineSweeper
 
 # Msでゲーム開始。引数は横幅と縦幅と爆弾数
-ms = Minesweeper.Ms(6,6,6)
+ms = MineSweeper.Ms(6,6,6)
 
 # わかりやすくした状態の文字列をgetで取得して表示
 # 引数に間に入れる文字を入れます。今回は空白を入れます。
