@@ -37,23 +37,23 @@ for data in (await twinc.async_get_tweets('tasuren1')):
 以下のような辞書型です。
 ```json
 {
-  'author': {
-    'avatar': 'https://pbs.twimg.com/profile_images/1356961072964493319/yHowjeIs_bigger.jpg',
-    'name': 'tasuren',
-    'screenName': '@tasuren1',
-    'url': 'https://twitter.com/tasuren1'
+  "author": {
+    "avatar": "https://pbs.twimg.com/profile_images/1356961072964493319/yHowjeIs_bigger.jpg",
+    "name": "tasuren",
+    "screenName": "@tasuren1",
+    "url": "https://twitter.com/tasuren1"
   },
-  'tweet': {
-    'id': '1358735837182087168',
-    'retweet': False,
-    'text': '#こんな壁紙でも引かないよって人RT\n'
-            'ハッハッハ\n'
-             '電柱の壁紙とは趣があるだろう！\n'
-            '\n'
-            'え?もう片方?なんだろうね\n'
-            '  ',
-     'time': '2021-02-08T11:14:02+0000',
-     'url': 'https://twitter.com/tasuren1/status/1358735837182087168'
+  "tweet": {
+    "id": "1358735837182087168",
+    "retweet": False,
+    "text": "#こんな壁紙でも引かないよって人RT\n"
+            "ハッハッハ\n"
+             "電柱の壁紙とは趣があるだろう！\n"
+            "\n"
+            "え?もう片方?なんだろうね\n"
+            "  ",
+     "time": "2021-02-08T11:14:02+0000",
+     "url": "https://twitter.com/tasuren1/status/1358735837182087168"
   }
 }
 ```
