@@ -45,7 +45,7 @@ for data in (await twinc.async_get_tweets('tasuren1')):
   },
   "tweet": {
     "id": "1358735837182087168",
-    "retweet": False,
+    "retweet": false,
     "text": "#こんな壁紙でも引かないよって人RT\n"
             "ハッハッハ\n"
              "電柱の壁紙とは趣があるだろう！\n"
